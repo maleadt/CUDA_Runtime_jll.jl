@@ -1,0 +1,11 @@
+[[CUDA_Runtime]]
+arch = "x86_64"
+cuda = "11.7"
+git-tree-sha1 = "dd832292bc233bda1e353d4f2d33c0409a9195cd"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[CUDA_Runtime.download]]
+    sha256 = "2a489b386bfe7d2994e20c41073fa720f6926fce3b707ec5ec2c25c70a157559"
+    url = "https://github.com/maleadt/CUDA_Runtime_jll.jl/releases/download/CUDA_Runtime-v0.2.0+0/CUDA_Runtime.v0.2.0.x86_64-linux-gnu-cuda+11.7.tar.gz"
