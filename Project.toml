@@ -1,6 +1,6 @@
 name = "CUDA_Runtime_jll"
 uuid = "76a88914-d11a-5bdc-97e0-2f5a05c973a2"
-version = "0.2.0+0"
+version = "0.3.0+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -14,4 +14,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.4.0"
 julia = "1.6"
-CUDA_Driver_jll = "0.1"
+CUDA_Driver_jll = "0.2,0.3"

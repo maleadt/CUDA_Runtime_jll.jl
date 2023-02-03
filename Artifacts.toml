@@ -20,3 +20,14 @@ os = "linux"
     [[CUDA_Runtime.download]]
     sha256 = "d341bf8b598706b87b3f181772d7a604c1b02a46db45045b20c4be7280a78d5d"
     url = "https://github.com/maleadt/CUDA_Runtime_jll.jl/releases/download/CUDA_Runtime-v0.2.0+0/CUDA_Runtime.v0.2.0.x86_64-linux-gnu-cuda+11.8.tar.gz"
+[[CUDA_Runtime]]
+arch = "x86_64"
+cuda = "12.0"
+git-tree-sha1 = "3fceb7c762f5c8892029cf5a210c607d15c8c902"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[CUDA_Runtime.download]]
+    sha256 = "e6cb7ba0d83b035f89198d5af674fea755ff91c4fc22f8f43f5a660f6b9c5475"
+    url = "https://github.com/maleadt/CUDA_Runtime_jll.jl/releases/download/CUDA_Runtime-v0.3.0+2/CUDA_Runtime.v0.3.0.x86_64-linux-gnu-cuda+12.0.tar.gz"
